@@ -52,6 +52,7 @@ function App() {
   })), 'btc').reverse();
 
   const showCached = amount === defaultAmount;
+  // const showCached = 0;
 
   const rows = showCached ? sortedCache : sortedResults;
 
